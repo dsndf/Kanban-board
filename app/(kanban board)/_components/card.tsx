@@ -13,7 +13,6 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({
   title,
-  id,
   status,
   onDragOver,
   onDragStart,
